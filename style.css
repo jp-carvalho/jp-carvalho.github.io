@@ -1,16 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,100&family=Space+Mono:ital@1&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
 /* Topo */
 
 .topo {
-    display: flex;
     font-family: 'Space Mono', monospace;
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 20px;
+    background-color: #1d1c1c;
+    justify-content: space-between;
+}
+
+.topo div{
+    margin-left: 50px;
+}
+
+.topo div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.topo div a:hover{
+    color: #dd5050;
+}
+
+.topo nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: 40px;
+}
+
+.topo nav ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.topo nav ul a:hover{
+    color: #dd5050;
+}
+
+
+.foto-head{
+    border-radius: 5%;
+    float: right;
 }
 
 .nome {
     font-family: 'Montserrat', sans-serif;
 }
+
 
 /* Sobre mim */
 
@@ -24,10 +72,13 @@ p {
 
 .pros {
     font-family: 'Space Mono', monospace;
+    font-size: 30px;
 }
 
 .cons {
     font-family: 'Space Mono', monospace;
+    font-size: 20px;
 }
 
 /* Footer redes sociais */
+
