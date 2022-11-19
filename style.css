@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,500;1,100&family=Space+Mono:ital@1&display=swap');
+
+/* Topo */
+
+.topo {
+    display: flex;
+    font-family: 'Space Mono', monospace;
+}
+
+.nome {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Sobre mim */
+
+body{
+    background-color: #c3c9c9;
+}
+
+p {
+    font-family: 'Space Mono', monospace;
+}
+
+.pros {
+    font-family: 'Space Mono', monospace;
+}
+
+.cons {
+    font-family: 'Space Mono', monospace;
+}
+
+/* Footer redes sociais */
