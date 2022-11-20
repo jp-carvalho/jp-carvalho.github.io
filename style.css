@@ -51,6 +51,7 @@
 
 .name {
     font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
     margin-bottom: 25px;
     text-align: center;
 }
@@ -62,30 +63,46 @@ body{
 }
 .foto-head{
     float: right;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding: 2px;
-    margin: 20px;
+    margin: 10px;
     background-color: #1d1c1c;
 }
 
-.body{
+.container{
+    font-family: 'Space Mono', monospace;
     height: 300px;
-    margin-top: 80px;
+    margin-top: 20px;
     margin-left: 20px;
     text-align: center;
     position: relative;
 }
 
-.body div p {
+.container p {
     margin-top: 50px;
 }
+
+.traits h3 {
+    background-color: blue;
+    margin-top: 40px;
+    text-align: center;
+    padding: 20px;
+}
+
+.traits div {
+    background-color: #dd5050;
+    margin-top: 50px;
+}
+
 .pros {
+    float: left;
     font-family: 'Space Mono', monospace;
     font-size: 30px;
 }
 
 .cons {
+    float: right;
     font-family: 'Space Mono', monospace;
     font-size: 20px;
 }
