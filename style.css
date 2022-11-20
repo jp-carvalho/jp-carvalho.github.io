@@ -5,9 +5,9 @@
     margin: 0;
     padding: 0;
 }
-/* Topo */
+/* Top */
 
-.topo {
+.top {
     font-family: 'Space Mono', monospace;
     display: flex;
     position: fixed;
@@ -18,58 +18,68 @@
     justify-content: space-between;
 }
 
-.topo div{
+.top div{
     margin-left: 50px;
 }
 
-.topo div a{
+.top div a{
     text-decoration: none;
     color: white;
     font-size: 20px;
     font-weight: bolder;
 }
 
-.topo div a:hover{
+.top div a:hover{
     color: #dd5050;
 }
 
-.topo nav ul{
+.top nav ul{
     display: flex;
     list-style: none;
     gap: 30px;
     margin-right: 40px;
 }
 
-.topo nav ul a{
+.top nav ul a{
     text-decoration: none;
     color: white;
 }
 
-.topo nav ul a:hover{
+.top nav ul a:hover{
     color: #dd5050;
 }
 
-
-.foto-head{
-    border-radius: 5%;
-    float: right;
-}
-
-.nome {
+.name {
     font-family: 'Montserrat', sans-serif;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 
 /* Sobre mim */
-
 body{
-    background-color: #c3c9c9;
+    background-color: #e4e1e1;
+}
+.foto-head{
+    float: right;
+    width: 200px;
+    height: 200px;
+    padding: 2px;
+    margin: 20px;
+    background-color: #1d1c1c;
 }
 
-p {
-    font-family: 'Space Mono', monospace;
+.body{
+    height: 300px;
+    margin-top: 80px;
+    margin-left: 20px;
+    text-align: center;
+    position: relative;
 }
 
+.body div p {
+    margin-top: 50px;
+}
 .pros {
     font-family: 'Space Mono', monospace;
     font-size: 30px;
