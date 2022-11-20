@@ -118,6 +118,8 @@ body{
     justify-content: center;
     text-decoration: none;
     gap: 50px;
+    padding: 15px;
+    background-color: #1d1c1c;
 }
 
 .social-media :hover{
