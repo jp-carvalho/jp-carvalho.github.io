@@ -84,15 +84,18 @@ body{
 }
 
 .traits h3 {
-    background-color: blue;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 200%;
     margin-top: 40px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .traits div {
-    background-color: #dd5050;
-    margin-top: 50px;
+    display:flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 10px;
 }
 
 .pros {
@@ -107,5 +110,16 @@ body{
     font-size: 20px;
 }
 
-/* Footer redes sociais */
+/* Links and social media */
 
+.social-media {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    text-decoration: none;
+    gap: 50px;
+}
+
+.social-media :hover{
+    color: #dd5050;
+}
