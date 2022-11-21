@@ -49,18 +49,22 @@
     color: #dd5050;
 }
 
-.name {
-    font-family: 'Montserrat', sans-serif;
-    margin-top: 100px;
-    margin-bottom: 25px;
-    text-align: center;
-}
+
 
 
 /* Sobre mim */
 body{
     background-color: #e4e1e1;
 }
+
+.name {
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
 .foto-head{
     float: right;
     width: 250px;
@@ -81,6 +85,8 @@ body{
 
 .container p {
     margin-top: 50px;
+    margin-left: 100px;
+    width: 50%;
 }
 
 .traits h3 {
