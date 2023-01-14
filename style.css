@@ -128,6 +128,10 @@ body{
     background-color: #1d1c1c;
 }
 
+.social-media a {
+    color: #e4e1e1;
+}
+
 .social-media :hover{
-    color: #dd5050;
+    color: #f32626;
 }
